@@ -4,26 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Viaggio a Londra</title>
 </head>
 
 <body>
     <header>
         <h1>Il mio Viaggio a Londra</h1>
         <div>
-        <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="Immagine Londra 0 Header" width="200"> <!-- Inserendo la sola larghezza automaticamente "proporziona" altezza -->
-        <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="Immagine Londra 1 Header" width="200">
-        <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="Immagine Londra 2 Header" width="200">
+            <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="Immagine Londra 1 di 3 Header" width="200">
+            <!-- Inserendo l'attributo della sola larghezza automaticamente "proporziona" altezza -->
+            <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="Immagine Londra 2 di 3 Header" width="200">
+            <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="Immagine Londra 3 di 3 Header" width="200">
         </div>
         <hr>
     </header>
     <main>
         <h2>Le mie spese</h2>
         <br>
-        <!--Creazione della tabella per le spese-->
+        <!--Creazione della tabella per le SPESE-->
         <table>
             <!--Intestazione della tabella-->
-            <thead> 
+            <thead>
                 <!--Riga-->
                 <tr>
                     <!--Celle di intestazione-->
@@ -59,16 +60,23 @@
             <!--Chiusura della tabella-->
             <tfoot>
                 <tr>
-                    <td colspan="2">Totale</td> <!-- Il colspan indica quante "celle" deve occupare. Allinea il totale -->
+                    <td colspan="2">Totale</td>
+                    <!-- Il colspan indica quante "celle" deve occupare. Allinea il totale -->
                     <td>360 &#8364</td>
                 </tr>
             </tfoot>
         </table>
         <hr>
-    </main>
-    <footer>
+        <!-- Creazione sezione FOTO -->
         <h3>Le foto</h3>
-    </footer>
+        <!-- Immagini affiancate senza tabella -->
+        <div>
+            <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
+                alt="Foto Millennium Bridge" width="300">
+            <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n"
+                alt="Foto Tower Bridge" width="300">
+        </div>
+    </main>
 </body>
 
 </html>
